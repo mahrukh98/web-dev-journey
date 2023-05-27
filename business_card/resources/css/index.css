@@ -1,0 +1,98 @@
+     /* || GENERAL STYLES */
+
+     .header-container h1 {
+        font-family: monospace;
+        text-align: center;
+        color: black;
+
+    }
+
+    .profile-image img {
+        max-width: 100%;
+        width: 120px;
+        max-height: 100%;
+        border: 2px solid black;
+        border-radius: 50%;
+        margin-top: -150px;
+        margin-left: 70px;
+        margin-right: -10px;
+    }
+
+   
+
+    .bio h1 {
+
+        font-size: 35px;
+        margin-left: -100px;
+        margin-top: 60px;
+
+    }
+
+    .bio h3 {
+
+        font-size: 15px;
+        margin-top: 5px;
+        margin-left: -100px;
+
+    }
+
+    .bio ul {
+
+        display: inline-block;
+        font-size: 15px;
+        padding-left: 5px;
+        margin-top: 200px;
+        margin-left: 100px;
+        font-size: 15px;
+        margin: 30px;
+
+    }
+
+    /* unordered list for social media icons (and links) */
+    #card-footer ul {
+        list-style: none;
+        align-items: center;
+        background-color: yellowgreen;
+        border: 2px solid black;
+        margin-top: 80px;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    /* space between each list item i.e., social media icon */
+    #card-footer li {
+        display: inline-block;
+        margin: 10px;
+    }
+
+        /* || UTILITIES */
+
+    /* business card header container/div */
+    .header-container {
+        margin-top: 50px;
+        margin-left: 400px;
+        margin-right: 400px;
+        background-color: yellowgreen;
+        border: 2px solid black;
+    }
+
+    /* main card wrapper and its general style */
+    .main-wrapper {
+        margin-left: 400px;
+        margin-right: 400px;
+        height: 500px;
+        background-color: #b39ddb;
+        border: 2px solid black;
+    }
+
+    .main-content {
+        display: flex;
+        align-items: center;
+        font-family: monospace;
+        color: black;
+    }
+
+    .bio {
+        text-align: center;
+
+    }
