@@ -1,0 +1,51 @@
+/* || GENERAL STYLE */
+header {
+    margin-bottom:30px;
+}
+
+/* || UTILITIES */
+#horiz-navbar ul {
+    height: 40px;
+    gap: 40px;
+    align-items: center;
+    /* for flex row contents */
+    justify-content: flex-end;
+}
+
+#vert-navbar ul {
+    flex-direction: column;
+    gap: 20px;
+    /* for flex column contents */
+    /* align-items: flex-end; */
+    min-width: 120px;
+}
+#horiz-navbar ul, #vert-navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 4px 8px;
+    background-color: navy;
+
+} 
+
+.horiz-nav-link, .vert-nav-link {
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+.horiz-nav-link:hover {
+    text-decoration: overline;
+    text-decoration-color: skyblue;
+}
+
+.vert-nav-link {
+    position: relative;
+    left: 0;
+    transition: all 0.3s ease;
+}
+.vert-nav-link:hover {
+    color: skyblue;
+    margin-left: 20px;
+}
+
